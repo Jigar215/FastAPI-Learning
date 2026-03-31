@@ -1,12 +1,6 @@
 from fastapi import FastAPI
-import json
 
 app = FastAPI()
-
-def load_data():
-    with open("patiens.json", "r") as f:
-        data = f.read()
-        return data
 
 @app.get("/")
 def hello():

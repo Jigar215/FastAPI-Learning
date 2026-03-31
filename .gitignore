@@ -1,0 +1,4 @@
+# Ignore python virtual environments
+myvenv/
+.myvenv/
+env/
